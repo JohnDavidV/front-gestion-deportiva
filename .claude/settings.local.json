@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:/Users/USUARIO/Documents/gestion_deportiva/front-gestion-deportiva\" && npm install vuetify @mdi/font)",
+      "Bash(cd \"C:/Users/USUARIO/Documents/gestion_deportiva/front-gestion-deportiva\" && npm run dev 2>&1 | head -20)",
+      "Bash(cd \"C:/Users/USUARIO/Documents/gestion_deportiva/front-gestion-deportiva\" && timeout 10 npm run dev 2>&1 || true)",
+      "Bash(cd \"C:/Users/USUARIO/Documents/gestion_deportiva/front-gestion-deportiva\" && timeout 8 npm run dev 2>&1 || true)"
+    ]
+  }
+}
